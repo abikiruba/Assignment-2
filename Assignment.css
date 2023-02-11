@@ -59,14 +59,14 @@ img {vertical-align: middle;}
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #070707;
+  background-color: #1c8fc9;
   border-radius: 50%;
   display: inline-block;
   /* transition: background-color 0.6s ease; */
 }
 
 .active, .dot:hover {
-  background-color: #090909;
+  background-color: #165ff2;
 }
 
 /* Fading animation */
