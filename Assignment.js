@@ -20,12 +20,9 @@ function showSlides() {
 
 
 // zoom in and zoom out for image
-function bigImg(x) {
-    x.style.height = "400px";
-    x.style.width = "600px";
+function zoom(){
+    document.querySelector("#zoom").style.transform = "scale(1.2)";
   }
-  
-  function normalImg(x) {
-    x.style.height = "300px";
-    x.style.width = "500px";
+  function zoomout(){
+    document.querySelector("#zoom").style.transform = "scale(1.0)";
   }
