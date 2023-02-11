@@ -1,6 +1,6 @@
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
 img {vertical-align: middle;}
 
 /* Slideshow container */
@@ -10,32 +10,9 @@ img {vertical-align: middle;}
   margin: auto;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  /* transition: 0.6s ease; */
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-
 /* Caption text */
 .text {
-  color: hsl(0, 0%, 5%);
+  color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -55,18 +32,17 @@ img {vertical-align: middle;}
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #1c8fc9;
+  background-color: #2aa8da;
   border-radius: 50%;
   display: inline-block;
-  /* transition: background-color 0.6s ease; */
+  transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: #165ff2;
+.active {
+  background-color: #0920cc;
 }
 
 /* Fading animation */
@@ -82,5 +58,5 @@ img {vertical-align: middle;}
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+  .text {font-size: 11px}
 }
