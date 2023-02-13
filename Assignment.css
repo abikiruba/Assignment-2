@@ -142,3 +142,64 @@ img {vertical-align: middle;}
   .contain:hover .overlay {
     opacity: 1;
   }
+
+
+  /* sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+  .navcontact{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+   
+
+/* ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss */
+/* Form css */
+#errorfirstname, #errorlastname, #erroremail, #errorphone, #errormessage{
+  color: red;
+}
+
+#firstname, #lastname, #email, #phone #message{
+  width: 250px;
+}
+
+#message{
+  height: 100px;
+  margin-left: 100px;
+}
+#firstname, #lastname, #email, #phone{
+  margin-left: 30px;
+}
+
+#contactform {
+  margin-top: 10px;
+  text-align: center;
+  color: #0920cc;
+}
+
+#mailid{
+  color: #0920cc;
+  margin-top: 20px;
+}
+
+#send{
+  border-radius: 20px;
+}
+
+
+/* ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss */
+/* map css */
+#map {
+  width: 700px;
+  height: 700px;
+}
+
+
+.card {
+  border: none;
+}
+
+
+.grid-container {
+  display: grid;
+  grid: 70px / auto auto;
+  grid-gap: 10px;
+}
