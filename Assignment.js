@@ -140,7 +140,8 @@ function validateForm() {
   }
 }
 
-
+// sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+// map  function
 function initMap(){
   var options={
     zoom:10,
@@ -148,3 +149,20 @@ function initMap(){
   }
   var map=new google.maps.Map(document.getElementById("map"),options)
 }
+
+
+// sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+// page loader
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+
+// sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+// 404 error message
